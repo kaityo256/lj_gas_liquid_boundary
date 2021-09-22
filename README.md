@@ -2,7 +2,7 @@
 
 ## Summary
 
-This data provides temperature Gas-Liquid Phase Boundary of Lennard-Jones System. Cutoff is 3.0 sigma. Please refer our paper for details.
+This data provides temperature Gas-Liquid Phase Boundary of Lennard-Jones System. Cutoff is 3.0 sigma. Since we adopted a somehow less common method to introduce the cutoff, please refer to our paper for details.
 
 ## Data
 
