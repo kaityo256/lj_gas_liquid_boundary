@@ -29,7 +29,7 @@ See the following paper for the details of the simulation.
 * Phase diagram and universality of the Lennard-Jones gas-liquid system
     * Hiroshi Watanabe, Nobuyasu Ito, and Chin-Kun Hu
     * [J. Chem. Phys. 136 204102 (2012)](https://doi.org/10.1063/1.4720089)
-    * [arXiv:1109.0821](https://arxiv.org/abs/1109.0821)
+    * [arXiv:1202.5369](https://arxiv.org/abs/1202.5369)
 
 ## LICENSE
 
