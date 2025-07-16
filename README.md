@@ -2,29 +2,34 @@
 
 ## Summary
 
-This data provides temperature Gas-Liquid Phase Boundary of Lennard-Jones System. Cutoff is 3.0 sigma. Since we adopted a somehow less common method to introduce the cutoff, please refer to our paper for details.
+This dataset provides the temperature-dependent gas-liquid phase boundary of the Lennard-Jones system. The cutoff radius is set to 3.0 sigma. Since we adopted a somewhat uncommon method for implementing the cutoff, please refer to our paper for details.
 
 ## Data
 
+[Data Directory](data)
+
+Alternatively, you can download a ZIP archive:
+
 [ljphasediagram.zip](ljphasediagram.zip)
 
-Each file contains 7 columns, temperature, density of gas, its err, density of liquid , its err, lambda (thickness of gas-liquid phase interface), its err, respectively.
+Each data file contains seven columns:
+temperature, gas density, error of gas density, liquid density, error of liquid density, interface thickness (lambda), and error of interface thickness, respectively.
 
-File name corresponds to the system size, e.g, `gl_L128.dat` is the data of the system with (128, 128, 256), etc.
+The filename indicates the system size. For example, `gl_L128.dat` corresponds to a system with dimensions (128, 128, 256).
 
-If you have gnuplot, then you can plot gas-liquid binodal line as follows,
+You can plot the gas-liquid binodal line using Gnuplot as follows:
 
 ```txt
 p "gl_L128.dat" u 2:1:3 w e,"gl_L128.dat" u 4:1:5 w e
 ```
 
-It will give you the following graph.
+This will generate the following graph:
 
 ![ljphasediagram.png](ljphasediagram.png)
 
 ## Reference
 
-See the following paper for the details of the simulation.
+For details of the simulation method, see the following paper:
 
 * Phase diagram and universality of the Lennard-Jones gas-liquid system
     * Hiroshi Watanabe, Nobuyasu Ito, and Chin-Kun Hu
@@ -33,4 +38,4 @@ See the following paper for the details of the simulation.
 
 ## LICENSE
 
-CC-BY
+This work is licensed under [CC BY](https://creativecommons.org/licenses/by/4.0/).
